@@ -59,9 +59,6 @@ public class main {
 //
 //        users.forEach(user1 -> addUser1(user1.getName(),user1.getSurname(),user1.getEmail()));
 
-delleteById(1);
-delleteById(4);
-delleteById(5);
 
         session.getTransaction().commit();
         session.close();
